@@ -82,7 +82,7 @@ exports.doService = async (jsonReq, servObject) => {
 	if (!result.tokenflag) return {result: false, reason: result.reason};
 
 	const listenerAdditions = Object.fromEntries(Object.entries(result).filter(([key]) => !keysBeforeListeners.includes(key)));
-	return {result: true, tokenflag: true, id: result.id, name: result.name, org: result.org, role: result.role, totpsec: result.totpsec, verified: result.verified==1?true:false, ...listenerAdditions};
+	return {result: true, tokenflag: true, id: result.id, name: result.name, org: result.org,domain: result.domain, role: result.role, totpsec: result.totpsec, verified: result.verified==1?true:false, ...listenerAdditions};
 }
 
 exports.getID = headers => {
