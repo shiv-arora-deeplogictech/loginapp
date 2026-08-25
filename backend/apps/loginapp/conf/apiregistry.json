@@ -23,36 +23,5 @@
     "/apps/{{app}}/getorgsmatching" : "/loginappframework/apis/getorgsmatching.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=false",
     "/apps/{{app}}/verifyemail" : "/loginappframework/apis/verifyemail.js?keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=false",
     "/apps/{{app}}/addorupdateorg" : "/loginappframework/apis/addorupdateorg.js?checksec_immediate=false&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=admin&checkClaims=org&addsToken=sub:{{{role}}},tokenflag:{{{result}}},id:{{{id}}},org:{{{org}}}",
-    "/apps/{{app}}/orgkeys" : "/loginappframework/apis/orgkeys.js?checksec_immediate=false&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=admin&checkClaims=org",
-
-
-    
-    "/apps/{{app}}/convertsql" : "/neuranetapp/apis/convertsql.js?keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=true&checkClaims=id",
-    "/apps/{{app}}/convertcode" : "/neuranetapp/apis/convertcode.js?keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=true&checkClaims=id",
-    "/apps/{{app}}/convertcodechain" : "/neuranetapp/apis/convertcodechain.js?keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=true&checkClaims=id",
-    "/apps/{{app}}/chat" : "/neuranetapp/apis/chat.js?keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=true&checkClaims=id",
-    "/apps/{{app}}/events" : "/neuranetapp/apis/events.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=true&checkClaims=id,org",
-
-    "/apps/{{app}}/enterpriseassistant" : "/neuranetapp/apis/enterpriseassistant.js?customSecurity=loginapp_key_checker&loginapp_key_checker_enforce_for_jwt=id,org",
-    "/apps/{{app}}/indexdoc" : "/neuranetapp/apis/indexdoc.js?customSecurity=loginapp_key_checker",
-    "/apps/{{app}}/unindexdoc" : "/neuranetapp/apis/unindexdoc.js?customSecurity=loginapp_key_checker",
-
-
-
-    "/apps/{{app}}/getfiles" : "/xbinapp/apis/getfiles.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/uploadfile" : "/xbinapp/apis/uploadfile.js?keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&reloadOnDebug=false",
-    "/apps/{{app}}/deletefile" : "/xbinapp/apis/deletefile.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389",
-    "/apps/{{app}}/createfile" : "/xbinapp/apis/createfile.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/checkfileexists" : "/xbinapp/apis/checkfileexists.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/renamefile" : "/xbinapp/apis/renamefile.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389",
-    "/apps/{{app}}/copyfile" : "/xbinapp/apis/copyfile.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/operatefile" : "/xbinapp/apis/operatefile.js?keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/downloadfile" : "/xbinapp/apis/downloadfile.js?get=true",
-    "/apps/{{app}}/getsecurid" : "/xbinapp/apis/getsecurid.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/sharefile" : "/xbinapp/apis/sharefile.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/checkshare" : "/xbinapp/apis/checkshare.js?get=true",
-    "/apps/{{app}}/downloadsharedfile" : "/xbinapp/apis/downloadsharedfile.js?get=true",
-    "/apps/{{app}}/proxiedapis/downloaddnd" : "/xbinapp/apis/downloaddnd.js?get=true",
-    "/apps/{{app}}/getdownloadstatus" : "/xbinapp/apis/getdownloadstatus.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin",
-    "/apps/{{app}}/checkquota" : "/xbinapp/apis/checkquota.js?get=true&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=user,admin"
+    "/apps/{{app}}/orgkeys" : "/loginappframework/apis/orgkeys.js?checksec_immediate=false&keys=fheiwu98237hjief8923ydewjidw834284hwqdnejwr79389&needsToken=admin&checkClaims=org"
 }
